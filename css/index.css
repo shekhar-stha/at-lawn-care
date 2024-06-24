@@ -132,7 +132,7 @@ nav .navbar-nav .nav-link:hover {
 .logo {
   width: 25rem;
   object-fit: contain;
-  filter: drop-shadow(0 0 0.3rem rgba(35, 134, 10, 0.5));
+  /* filter: drop-shadow(0 0 0.3rem rgba(35, 134, 10, 0.5)); */
   margin: 0.5rem 0;
 }
 
