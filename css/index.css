@@ -2003,3 +2003,45 @@ hr {
   width: 110px;
   margin-bottom: 4px;
 }
+
+
+/* Galery Section */
+.gallery .gallery-photos {
+  column-count: 3;
+  --webkit-column-count: 3;
+  --moz-column-count: 3;
+  gap: 1rem;
+  padding: 2rem 0rem;
+}
+
+@media (max-width: 768px) {
+  .gallery .gallery-photos {
+    column-count: 2;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .gallery .gallery-photos {
+    column-count: 1;
+  }
+}
+
+.gallery .gallery-photos .image {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery .gallery-photos .image img {
+  height: auto;
+  max-height: 25rem;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.gallery .gallery-photos .image img:hover {
+  transform: scale(0.97);
+}
+
+
